@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="kr.ac.pknu.sme.myvoiceproject.activities.AboutActivity">
+
+<fragment android:name="kr.ac.pknu.sme.myvoiceproject.fragments.AboutFragment"
+    android:id="@+id/about_fragment"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>

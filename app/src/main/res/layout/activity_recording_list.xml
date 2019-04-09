@@ -1,0 +1,9 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.pknu.sme.myvoiceproject.activities.RecordingListActivity"
+    tools:ignore="MergeRootFrame">
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general -->
+    <string name="app_name">음치탈출프로젝트</string>
+
+    <!-- settings -->
+    <string name="preference_file_key" translatable="false">preferences.conf</string>
+    <string name="saved_text_number" translatable="false">text-number</string>
+    <string name="first_start" translatable="false">first-start</string>
+
+    <!-- recording overview -->
+    <string name="undo" translatable="false">뒤로</string>
+    <string name="record_deleted" translatable="false">레코드가 삭제됬습니다.</string>
+    <string name="empty" translatable="false">저장된 곡이 없습니다. 위에 있는 녹음 버튼을 눌러 녹음을 시작하세요</string>
+
+    <!-- new recording activity/fragment -->
+    <string name="title_activity_recording" translatable="false">새로운 녹음</string>
+    <string name="record" translatable="false">녹음</string>
+    <string name="start_recording">녹음</string>
+    <string name="cancel">취소</string>
+    <string name="stop_recording">중지</string>
+    <string name="title_text">Text</string>
+    <string name="realtime_graph">실시간 Graph</string>
+    <string name="recording_tab_index" translatable="false">recording_tab_index</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- recording analysis -->
+    <string name="title_section1">개요</string>
+    <string name="title_section2">시간별 피치 변화</string>
+    <string name="title_section3">디테일</string>
+    <string name="min_max_avg">최소 평균: %1$sHz, 최대 평균: %2$sHz, 평균: %3$sHz</string>
+    <string name="average">평균</string>
+    <string name="min_avg">최소 평균</string>
+    <string name="max_avg">최대 평균</string>
+    <string name="male_range">남자 음역대</string>
+    <string name="female_range">여자 음역대</string>
+    <string name="androgynous_range">중성 음역대</string>
+    <string name="your_range">너의 음역대</string>
+    <string name="personal_range">너의 목소리는</string>
+    <string name="male">남자</string>
+    <string name="female">여자</string>
+    <string name="in_between">남자,여자의 중간</string>
+    <string name="unknown">알수없음</string>
+    <string name="pitch_max">최대</string>
+    <string name="pitch_min">최소</string>
+    <string name="pitch_max_avg">최대 평균</string>
+    <string name="pitch_min_avg">최소 평균</string>
+
+    <!-- about fragment -->
+    <string name="action_about">정보</string>
+    <string name="title_activity_about">음치탈출 프로젝트에 대해</string>
+    <string name="design" translatable="false">디자인</string>
+    <string name="programming_persons" translatable="false">오신엽</string>
+    <string name="design_persons" translatable="false">오신엽</string>
+    <string name="libraries">사용한 라이브러리</string>
+    <string name="mpandroidchart" translatable="false">MPAndroidChart</string>
+    <string name="tarsos_dsp" translatable="false">TarsosDSP</string>>
+    <string name="jodatime" translatable="false">Joda Time</string>
+
+
+    <!-- start screen -->
+    <string name="welcome">음치탈출 프로젝트! 환영합니다!</string>
+    <string name="explanation">제대로 측정하려면 적어도 1분정도 녹음을 해야합니다. 여러분의 목소리의 피치를 측정하고 그래프로 보여줍니다. 본인 목소리의 음정 및 음역대를 쉽게 확인할 수 있습니다!! </string>
+    <string name="microphone">의미 있는 분석 결과를 생성하려면 헤드셋이나 기타 외부 마이크를 사용해보세요!</string>
+    <string name="results">결과</string>
+    <string name="next">다음</string>
+
+    <!-- error messages -->
+    <string name="device_sample_rate_not_supported">마이크가 지원되지 않습니다.</string>
+    <string name="device_sample_rate_not_supported_title">마이크가 지원되지 않습니다.</string>
+
+    <!-- permission request -->
+    <string name="mic_permission_explanation">앱 사용을 위해 마이크 사용 권한을 허용으로 바꿔주세요.</string>
+    <string name="settings">설정</string>
+    <string name="mic_permission_title">마이크 접근이 필요</string>
+
+    <!-- progress -->
+    <string name="progress">Pitch</string>
+    <string name="title_activity_progress">전체 진행 상황</string>
+</resources>
